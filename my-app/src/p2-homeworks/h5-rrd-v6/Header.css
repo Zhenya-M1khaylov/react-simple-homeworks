@@ -1,0 +1,11 @@
+.act {
+    color: lime;
+    margin: 10px;
+    transition: all 500ms ease;
+}
+
+
+.def {
+    color: black;
+    margin: 10px;
+}

@@ -4,8 +4,7 @@
 
 .content {
     color: blueviolet;
-    text-indent: 50px;
-
+    text-indent: 40px;
 
 }
 
@@ -13,5 +12,17 @@
     color: black;
     padding: 5px;
     background-color: aquamarine;
-    margin: 5px;
+    margin: 25px;
+}
+
+.buttons {
+}
+
+td {
+    width: 40%;
+    vert-align: middle;
+}
+
+th {
+    width: 40%;
 }
