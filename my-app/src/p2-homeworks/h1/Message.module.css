@@ -1,0 +1,48 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 60px;
+    border: 1px solid blueviolet;
+}
+
+.text {
+    min-width: 100px;
+    max-width: 350px;
+    overflow-wrap: break-word;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bold;
+    color: blueviolet;
+    font-family: Georgia;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    color: blueviolet;
+    font-size: 10px;
+}
+
+.content {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+    background-color: aquamarine;
+
+
+}
+
+.circle {
+    border-bottom-left-radius: 15px;
+    background-color: aquamarine;
+    width: 15px;
+    height: 15px;
+}

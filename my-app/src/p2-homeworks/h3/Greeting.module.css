@@ -1,0 +1,36 @@
+.greeting {
+    display: flex;
+    align-items: flex-start;
+}
+
+.inputClass {
+    margin: 10px;
+}
+
+.error {
+    color: red;
+    margin: 10px;
+}
+
+.input {
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.errorInput {
+    margin: 10px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    outline: none;
+}
+
+.button {
+    margin: 10px;
+    width: 60px;
+    background-color: aquamarine;
+    outline: none;
+}
+
+.count {
+    margin: 10px;
+}

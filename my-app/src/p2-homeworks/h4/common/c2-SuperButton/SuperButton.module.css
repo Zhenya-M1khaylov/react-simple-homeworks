@@ -1,0 +1,23 @@
+.button:disabled {
+    cursor: auto;
+}
+
+.default {
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+button:active {
+    transform: scale(1.2);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.35);
+
+}
+
+.button {
+    cursor: pointer;
+    position: relative;
+}
+
+.red {
+    background: red;
+}
