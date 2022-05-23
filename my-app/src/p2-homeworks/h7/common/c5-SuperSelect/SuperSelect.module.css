@@ -1,0 +1,13 @@
+
+.option {
+    background-color: aquamarine;
+}
+
+.select {
+    cursor: pointer;
+    width: 100px;
+    padding: 5px;
+
+    background-color: aquamarine;
+    border: 2px inset blueviolet;
+}

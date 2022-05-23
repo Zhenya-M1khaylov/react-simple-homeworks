@@ -1,0 +1,10 @@
+
+.label {
+    cursor: pointer;
+}
+
+.radio {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+}
