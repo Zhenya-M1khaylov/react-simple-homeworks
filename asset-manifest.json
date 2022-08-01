@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-simple-homeworks/static/css/main.d575fdaa.css",
-    "main.js": "/react-simple-homeworks/static/js/main.83cd0276.js",
+    "main.js": "/react-simple-homeworks/static/js/main.7b68a8dd.js",
+    "static/media/spinner.gif": "/react-simple-homeworks/static/media/spinner.b51df3f3ec072548cb48.gif",
     "index.html": "/react-simple-homeworks/index.html",
     "main.d575fdaa.css.map": "/react-simple-homeworks/static/css/main.d575fdaa.css.map",
-    "main.83cd0276.js.map": "/react-simple-homeworks/static/js/main.83cd0276.js.map"
+    "main.7b68a8dd.js.map": "/react-simple-homeworks/static/js/main.7b68a8dd.js.map"
   },
   "entrypoints": [
     "static/css/main.d575fdaa.css",
-    "static/js/main.83cd0276.js"
+    "static/js/main.7b68a8dd.js"
   ]
 }
