@@ -3,8 +3,9 @@ import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
 
 function HW11() {
-    const [value1, setValue1] = useState(0)
-    const [value2, setValue2] = useState(100)
+    const [minValue, setMinValue] = useState(0)
+    const [maxValue, setMaxValue] = useState(100)
+
 
     return (
         <div>
@@ -13,18 +14,20 @@ function HW11() {
 
             {/*should work (должно работать)*/}
             <div>
-                <span>{value1}</span>
+                <span>{minValue}</span>
                 <SuperRange
+                    onChangeRange={setMinValue}
                     // сделать так чтоб value1 изменялось
                 />
             </div>
 
             <div>
-                <span>{value1}</span>
+                <span>{minValue}</span>
                 <SuperDoubleRange
+
                     // сделать так чтоб value1 и value2 изменялось
                 />
-                <span>{value2}</span>
+                <span>{maxValue}</span>
             </div>
 
             <hr/>
