@@ -8,7 +8,7 @@ import JuniorPlus from './pages/JuniorPlus';
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
-    JUNIORPLUS: '/juniorPlus'
+    'JUNIOR+': '/junior+'
     // add paths
 }
 
@@ -23,7 +23,7 @@ function Pages() {
 
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>
-                <Route path={PATH.JUNIORPLUS} element={<JuniorPlus/>}/>
+                <Route path={PATH['JUNIOR+']} element={<JuniorPlus/>}/>
                 {/*// add routes*/}
 
                 {/*он отрисуется если пользователь захочет попасть на несуществующую страницу*/}

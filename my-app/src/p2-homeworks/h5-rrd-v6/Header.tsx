@@ -1,45 +1,21 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom';
-import './Header.css'
+import {NavLink} from 'react-router-dom'
+import {PATH} from './Pages';
+import style from './Header.module.css'
 
 function Header() {
     return (
-        <div>
-            {/*// add NavLinks*/}
-            {/*<NavLink*/}
-            {/*    to={'/'}*/}
-            {/*    // style={(params)=> {*/}
-            {/*    //     return {color: params.isActive ? 'lime' : 'black'}*/}
-            {/*    // }}*/}
-            {/*    className={({isActive})=>isActive ? 'act' : 'def'}*/}
-            {/*></NavLink>*/}
-            <NavLink
-                to={'/pre-junior'}
-                // style={(params)=> {
-                //     return {color: params.isActive ? 'lime' : 'black'}
-                // }}
-                className={({isActive})=>isActive ? 'act' : 'def'}
-            >
-                pre-junior
-            </NavLink>
-            <NavLink
-                to={'/junior'}
-                // style={(params)=> {
-                //     return {color: params.isActive ? 'lime' : 'black'}
-                // }}
-                className={({isActive})=>isActive ? 'act' : 'def'}
-            >
-                junior
-            </NavLink>
-            <NavLink
-                to={'/juniorPlus'}
-                // style={(params)=> {
-                //     return {color: params.isActive ? 'lime' : 'black'}
-                // }}
-                className={({isActive})=>isActive ? 'act' : 'def'}
-            >
-                juniorPlus
-            </NavLink>
+        <div className={style.nav}>
+            <input type="checkbox" id="hmt" className={style.hiddenMT}/>
+            <div className={style.hiddenM}>
+                <NavLink to={PATH.PRE_JUNIOR}
+                         className={({isActive}) => isActive ? style.active : style.item}> PreJunior </NavLink>
+                <NavLink to={PATH.JUNIOR}
+                         className={({isActive}) => isActive ? style.active : style.item}> Junior </NavLink>
+                <NavLink to={PATH['JUNIOR+']}
+                         className={({isActive}) => isActive ? style.active : style.item}> Junior+ </NavLink>
+            </div>
+            <label className={style.btnM} htmlFor="hmt" title={'Жмякни'}/>
         </div>
     )
 }
